@@ -41,8 +41,8 @@ Challenged Mobile Design VS My Mobile solution<br>
 
 ### Links
 
-- Solution URL: [Github](https://github.com/skyv26/Fylo-Data-Storage)
-- Live Site URL: [Github Pages](https://skyv26.github.io/Fylo-Data-Storage/)
+- Solution URL (Source): [Github](https://github.com/skyv26/Fylo-Data-Storage)
+- Live Site URL: [Github Pages](https://skyv26.github.io/fylo-project-review/)
 
 ## My process
 
