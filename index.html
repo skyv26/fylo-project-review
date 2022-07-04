@@ -1,38 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <script src="https://kit.fontawesome.com/bc4d064067.js" crossorigin="anonymous"></script>   
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Odibee+Sans&family=Poppins&family=Roboto:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Fylo data storage component</title>
+  <link rel="stylesheet" href="./styles/customSheet.css">
 </head>
 <body>
-    <header class="header">
-        <div>
-            Sannidhya Mahajan
-        </div>
-        <i class="fas fa-bars"></i>
-    </header>
-    <h1>Hey there.
-        I am Sannidhya
-    </h1>
-    <h2>
-        I am a Software developer.
-    </h2>
-    <p>I can help you build a project,feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded,don't hesitate to contact me.</p>
-    <div class="wrapper">
-        <li><i class="fab fa-github"></i></li>
-        <li><i class="fab fa-linkedin"></i></li>
-        <li><i class="fab fa-angellist"></i></li>
-        <li><i class="fab fa-twitter"></i></li>
-        <li><i class="fab fa-medium-m"></i></li>
-        <img src="images/illustration-header-mobile.svg" alt="illustration-header-mobile">
+
+  <main class="main">
+    <div class="main-fylo main-fylo--operation">
+      <img src="./images/logo.svg" alt="">
+      <div class="menu-container">
+        <button class="menu-container--menu" aria-label="get document">
+          <img src="./images/icon-document.svg" alt="">
+        </button>
+        <button class="menu-container--menu" aria-label="open folder">
+          <img src="./images/icon-folder.svg" alt="">
+        </button>
+        <button class="menu-container--menu" aria-label="upload your file">
+          <img src="./images/icon-upload.svg" alt="">
+        </button>
+      </div>
     </div>
 
+    <div class="main-fylo main-fylo--display_data">
+      <h1 class="display_data--text">You’ve used <span>815 GB</span> of your storage</h1>
+      <div class="progress">
+        <div class="slider--outer">
+          <div class="slider">
+            <span class="toggle"></span>
+          </div>
+        </div>
+        <p class="progressMark">
+          <span class="initialVal">0 GB</span>
+          <span class="finalVal">1000 GB</span>
+        </p>
+      </div>
+      <div class="data-left">
+        <p class="text">185</p>
+        <p class="text-small">GB LEFT</p>
+        <span class="pointing-arrow"></span>
+      </div>
+    </div>
+  </main>
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.linkedin.com/in/devaakash/">Aakash Verma</a>.
+  </footer>
 </body>
 </html>
